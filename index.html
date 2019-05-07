@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background:color:cyan;
+
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width:100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 30%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+button{
+	background-color:transparent;
+}
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+	a{
+		text-decoration: none;
+		color:grey;
+	}
+	#upper{
+		position:relative;
+		left:220px;
+		padding-top:10px;
+		padding-left:50px;
+		padding-right:50px;
+		width:800px;
+		height:1200px;
+		background-color:cyan;
+	}
+	#one{
+		float:left;
+		height:60px;
+		width:800px;
+		background-color:lightgrey;
+		
+	}
+	#image{
+		float:left;
+		width:200px;
+		height:60px;
+	}
+	#links{
+		padding-top:20px;
+		
+		float:right;
+		width:500px;
+		height:60px;
+	
+	}
+	#two{
+		margin-top:10px;
+		float:left;
+		height:300px;
+		width:800px;
+		background-color:violet;
+		
+	}
+	#three{
+		margin-top:15px;
+		float:left;
+		height:570px;
+		width:800px;
+		background-color:#AED6F1  ;
+		
+	}
+	#first{
+		width:800px;
+		height:250px;
+		margin-top:20px;
+		background-color:#3498DB  ;
+		margin-top:20px;
+	
+	}
+	#second{
+		margin-top:20px;
+		width:800px;
+		height:250px;
+		background-color:#3498DB ;
+	}
+	#four{
+		margin-top:10px;
+		float:left;
+		height:200px;
+		width:800px;
+		background-color:grey;
+		color:white;
+	}
+	
+	img{
+		width:100%;
+		height: 100%;
+	}
+	
+</style>
+</head>
+<body>
+
+	
+	
+	
+	<div id="upper">
+			<div id="one">
+				<div id="image">  <img src="pic/logo.png"></div>
+				<div id="links" style="color:Black;">
+				EK KADAM APKE SAATH ...&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+				<button onclick="document.getElementById							('id01').style.display='block'" 					style="width:auto;">Login</button>&emsp;
+				<a href="signup.html">SignUp</a>
+				</div>
+			</div>
+			
+			<div id="two">
+				<img src="pic/2.png">
+			</div>
+			
+			
+			
+			<div id="three">
+				<div id="first" style="color:white;"><br><br>
+					<center><h1><a  style="color:violet;"href="https://www.sbi.co.in/portal/web/personal-banking">Internet Banking</h1></a>
+					Internet banking is the most convenient way to bank- anytime, any place, at your convenience. You can access OnlineSBI from any computer that has connectivity to the Internet. ... Logon to 
+					www.onlinesbi.com using this username and password.
+				</div>
+				<div id="second"; style="color:white;"><br/>
+				<center><h1><a  style="color:violet;"href="https://www.sbi.co.in/portal/web/personal-banking">Personal Banking</h1></a>
+					State Bank of India offers a wide range of services in the Personal Banking Segment which are indexed here.
+					Click on each of them to access the details. Our products are designed with flexibility to suit your personal requirements.
+					Enjoy 24 hour facility through our ATMs - growing speedily it has crossed the 21000 mark Watch this space for more details.
+					"SBI now provides your Account Balance and Transaction details over phone round-the-clock. Information on deposits & loan schemes and services also available. Call 1800 11 2211,1800 425 3800 (tollfree from BSNL/MTNL) or 080-26599990 (toll number)."
+				</div>
+			</div>
+			<div id="four">
+				<br/>Contact Us:<br>&emsp;&emsp;&emsp;&emsp;&emsp;
+				Our Centers:
+				&emsp;&emsp;&emsp;&emsp;&emsp;
+				Phone No:<br/>
+									&emsp;&emsp;&emsp;&emsp;&emsp;1.Banglore&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  0512458555<br/>
+									&emsp;&emsp;&emsp;&emsp;&emsp;2.Chennai&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; 6584569152
+									
+			</div>
+	</div>
+		
+<div id="id01" class="modal">
+  <form class="modal-content animate"  action="login"   method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="pic/user.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="name" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="password" required>
+        
+      
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+	<button type="submit">Login</button>
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+
+</div>
+
+  </form>	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+</body>
+</html>

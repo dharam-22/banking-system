@@ -1,0 +1,26 @@
+create table employee(id int NOT NULL , name varchar(50),email varchar(80),password varchar(15), PRIMARY KEY (id));
+********************************************
+constraint name
+inc_id  
+sequence
+id_seq
+1000
+trigger
+id_trigger
+
+
+
+=============================================================
+create table account(accountno varchar(50) PRIMARY KEY,name varchar(50),address varchar(100),
+fathername varchar(50),mothername varchar(60),city varchar(50),state varchar(50),zipcode
+
+
+*************************************************
+constraint name
+inc_id  
+sequence
+inc_acc
+starts with 12345678
+trigger
+
+inc_account

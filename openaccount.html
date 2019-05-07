@@ -1,0 +1,79 @@
+
+<html>
+<head>
+	
+
+	<style>
+	body{
+		background-image:url(pic/five.jpg);	
+		background-size:100%;
+		
+	}	
+		#three{
+			color:white;
+		}
+		#one{
+
+			padding-top:10px;
+			padding-left:10px;
+			width:1250px;
+			background-color:lightgrey;
+			height:30px;
+			border-style:solid;
+			border-color: black;
+			color:white;
+
+
+		}	
+		#two{
+			padding-left:10px;
+			padding-top:10px;
+			color:white;
+			border-style:solid;
+			width:1000px;
+			height:400px;
+
+		}
+	</style>
+</head>
+
+<body>
+
+	<form   action="oa" method="post">
+		<div id="parent">
+		<div id="three">
+		<h1>SBI ONLINE</h1>
+		</div>
+		<hr>
+		
+		<div id="one">
+			Opening Bank Account:-
+		</div>
+		<hr>
+		<div id="two">
+		
+		
+		fname 	&emsp;   &emsp; &emsp;&emsp;&nbsp;&nbsp;&nbsp;
+		mname     &emsp;  &emsp;&emsp; &nbsp;&nbsp;&emsp;  &nbsp;
+		lname<br>
+		<input type="text" name="fname" size=12>&emsp;<input type="text" name="mname" 			size=12> &emsp;<input type="text" name="lname" size=12>
+		<br><br>Address
+		<br><input type="text"name="address">
+		<br><br>Father's Name
+		<br><input type="text" name="fathername">
+		<br><br>Mother's Name
+		<br><input type="text" name="mothername">
+		<br><br>City &emsp;&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; State &emsp; &emsp;&emsp; &emsp; &emsp; &emsp;  &emsp; ZipCode<br>
+		<input type="text" name="city"> &nbsp;
+		<input type="text" name="state">&nbsp;
+		<input type="text" name="zipcode">
+		<br><br>Phone No:<br><input type="text" name="phoneno">
+		<br><br>Account Type: <br>
+		<input type="radio" value="RS" name="account"> Regular Savings &emsp;
+		<input type="radio" value="C" name="account">Checking&emsp;
+		<input type="radio" value="FD" name="account">Fixed Deposit<br><br><br>
+		<input type="submit" value="Create Account"> &emsp;&emsp; <a href="home.html"> Cancel </a>
+		</div>
+		</div>
+		
+	</form>

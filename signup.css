@@ -1,0 +1,67 @@
+body{
+	background-image:url(pic/five.jpg);
+	background-size:100%;
+	color:white;
+
+}
+.signup{
+    border:2px solid blue;
+    padding-left:10px;
+}
+.header{
+	padding-left:110px;
+	border-bottom:2px solid #d9d9d9;
+}
+
+#a{
+	font-size:18px;
+}
+
+input {
+  margin-bottom:10px;
+  padding:20px;
+  width:450px;
+  border:1px solid #e6f2ff;
+  font-size:20px;
+}
+
+#b1{
+	margin:55px 110px;
+	background-color: #e6f2ff;
+}
+
+#b2{ 
+   margin:55px 100px;
+   background-color: #e6f2ff;
+}
+
+#b3{
+	margin:5px 110px;
+	background-color: #e6f2ff;
+}
+
+#b4{
+	margin:50px 110px;
+	background-color: #e6f2ff;
+}
+
+#b5{
+	margin:10px 110px;
+	background-color: #e6f2ff;
+}
+
+#c{
+	margin:10px 105px;
+}
+
+.btn{
+	background-color:#008CBA;
+    border: none;
+    color: white;
+    padding: 15px 35px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 110px 20px;
+   
+}
